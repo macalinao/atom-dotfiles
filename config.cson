@@ -1,0 +1,33 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "dcaa8e6d-3d8b-9ae9-570c-d9c6cf06d47d"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  minimap: {}
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "terminal-plus":
+    core: {}
+    style: {}
+  welcome:
+    showOnStartup: false
